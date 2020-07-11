@@ -1,13 +1,12 @@
 /*
     Author: Damilare Adedoyin
 */
-
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <Arduino_JSON.h>
 
-const char* ssid = "AndroidAP626B";
-const char* password = "damilare2";
+const char* ssid = "YourWifiSSID";
+const char* password = "***********";
 
 class Stock {
   public: float list[6];
@@ -192,7 +191,7 @@ String apiUrl = "https://finnhub.io/api/v1/quote?symbol=TSLA&token=";
     @var token
     @abstract API token from finnhub (https://finnhub.io/)
 */
-String token = '*****************'
+String token = "*************************";
 /*!
     @var lastTime
     @abstract Measure of time used
